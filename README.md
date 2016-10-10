@@ -1,7 +1,9 @@
 # Inventory_Checker_Android
 A simple android app to display the inventory information from Office Depot, using itemID and zip code as input.
 
-Support:
+Support: android 4.4 or above
+
+Functions:
 
 1) store itemIDs in a list at the left edge
 
