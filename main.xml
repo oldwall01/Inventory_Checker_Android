@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+
+    <ListView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listItemIDView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="viewStart"
+            android:smoothScrollbar="true"
+            android:layout_above="@+id/config"/>
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/horizontalZipView"
+            android:layout_toRightOf="@+id/listItemIDView"/>
+    <TextView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/config"
+            android:text="!"
+            android:textColor="@color/config_sign"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:gravity="center"/>
+    <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:id="@+id/horizontalZipView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="1dp"
+            android:layout_toRightOf="@+id/config">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="97201"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/selected" android:id="@+id/zipView0"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="97301"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView1"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="97401"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView2"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="97701"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView3"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="99336"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView4"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="98901"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView5"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="98499"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView6"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="98101"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView7"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="97838"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView8"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="83701"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView9"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="83301"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView10"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="98632"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView11"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="98626"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView12"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="79101"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView13"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="79701"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView14"/>
+            <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:text="79401"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/unselected" android:id="@+id/zipView15"/>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</RelativeLayout>
+

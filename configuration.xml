@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/itemIDListView"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="top|left"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save &amp; Go Back"
+            android:id="@+id/btnGoback"
+            android:layout_below="@+id/itemIDListView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="30dp"/>
+
+
+</RelativeLayout>
